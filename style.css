@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(.//img/photo-1477738224882-4eba549a81ea.jpg);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.big-text {
+    font-size: 4rem;
+    line-height: 1;
+    margin: 1rem 4rem;
+}
+
+span {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
